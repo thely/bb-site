@@ -1,0 +1,366 @@
+[
+  {
+    "title": "Electroacoustic Barn Dance",
+    "date": "2018-11-09",
+    "venue": "Jacksonville University",
+    "location": "Jacksonville, FL",
+    "link": "https://eabarndance.com/"
+  },
+  {
+    "title": "Fall Dance Concert",
+    "date": "2018-11-17",
+    "venue": "Culbreth Theater",
+    "location": "Charlottesville, VA",
+    "link": "http://www.c-ville.com/arts-pick-fall-dance-concert/"
+  },
+  {
+    "title": "Fall Dance Concert",
+    "date": "2018-11-16",
+    "venue": "Culbreth Theater",
+    "location": "Charlottesville, VA",
+    "link": "http://www.c-ville.com/arts-pick-fall-dance-concert/"
+  },
+  {
+    "title": "Fall Dance Concert",
+    "date": "2018-11-15",
+    "venue": "Culbreth Theater",
+    "location": "Charlottesville, VA",
+    "link": "http://www.c-ville.com/arts-pick-fall-dance-concert/"
+  },
+  {
+    "title": "Guest Artist Recital: Live Electronics",
+    "date": "2018-11-28",
+    "venue": "Western Michigan University",
+    "location": "Kalamazoo, MI",
+    "link": "https://wmich.edu/music"
+  },
+  {
+    "title": "Technosonics - Concert 2",
+    "date": "2018-09-22",
+    "venue": "The Bridge Progressive Arts Initiative",
+    "location": "Charlottesville, VA"
+  },
+  {
+    "title": "Digitalis",
+    "date": "2018-05-01",
+    "venue": "Old Cabell Hall",
+    "location": "Charlottesville, VA",
+    "link": "http://music.virginia.edu/Digitalis2018"
+  },
+  {
+    "title": "Telemetry Concert Series",
+    "date": "2018-05-12",
+    "venue": "The Bridge Progressive Arts Initiative",
+    "location": "Charlottesville, VA"
+  },
+  {
+    "title": "West Virginia Mountaineer Film Festival",
+    "date": "2018-04-14",
+    "venue": "WVU School of Art and Design",
+    "location": "Morgantown, WV",
+    "link": "https://www.mountaineershortfilmfest.org/"
+  },
+  {
+    "title": "Virginia X",
+    "date": "2018-04-09",
+    "venue": "University of Mary Washington",
+    "location": "Fredericksburg, VA"
+  },
+  {
+    "title": "Telemetry Concert Series",
+    "date": "2017-11-20",
+    "venue": "The Bridge Progressive Arts Initiative",
+    "location": "Charlottesville, VA",
+    "link": "http://music.virginia.edu/telemetry-oct-2017"
+  },
+  {
+    "title": "New Thread at Spectrum",
+    "date": "2018-02-18",
+    "venue": "Spectrum",
+    "location": "Brooklyn, NY",
+    "link": "http://music.virginia.edu/telemetry-oct-2017"
+  },
+  {
+    "title": "Technosonics XVIII - DIY",
+    "date": "2018-02-24",
+    "venue": "The Southern Cafe",
+    "location": "Charlottesville, VA",
+    "link": "http://music.virginia.edu/techosonicsXVIII"
+  },
+  {
+    "title": "SEAMUS 2018",
+    "date": "2018-03-31",
+    "venue": "University of Oregon",
+    "location": "Eugene, OR",
+    "link": "https://www.seamus2018.org/"
+  },
+  {
+    "title": "Root Signals",
+    "date": "2018-02-22",
+    "venue": "Georgia Southern University",
+    "location": "Statesboro, GA"
+  },
+  {
+    "title": "SCGMC 2017",
+    "date": "2017-09-29",
+    "venue": "University of North Carolina Chapel Hill",
+    "location": "Chapel Hill, NC"
+  },
+  {
+    "title": "Electroacoustic Barn Dance",
+    "date": "2018-02-08",
+    "venue": "Jacksonville University",
+    "location": "Jacksonville, FL",
+    "link": "https://eabarndance.com/"
+  },
+  {
+    "title": "Third Practice New Music Festival",
+    "date": "2017-11-04",
+    "venue": "University of Richmond",
+    "location": "Richmond, VA",
+    "link": "http://www.thirdpractice.org/"
+  },
+  {
+    "title": "InLight Richmond",
+    "date": "2017-11-03",
+    "venue": "1708 Gallery",
+    "location": "Richmond, VA",
+    "link": "http://www.1708gallery.org/inlight/"
+  },
+  {
+    "title": "West Fork New Music Festival",
+    "date": "2017-09-09",
+    "venue": "Fairmont State University",
+    "location": "Fairmont, WV",
+    "link": "http://www.danieleichenbaum.com/west_fork.htm"
+  },
+  {
+    "title": "SEAMUS 2017",
+    "date": "2017-04-21",
+    "venue": "St. Cloud State University",
+    "location": "St. Cloud, MN",
+    "link": "http://www.stcloudstate.edu/music/seamus/default.aspx"
+  },
+  {
+    "title": "West Liberty University",
+    "date": "2017-04-06",
+    "location": "West Liberty, WV",
+    "link": "http://westliberty.edu/madfest/?repeat=w3tc"
+  },
+  {
+    "title": "SCI National",
+    "date": "2017-04-01",
+    "venue": "Western Michigan University",
+    "location": "Kalamazoo, MI",
+    "link": "http://sci2017.splice.institute/"
+  },
+  {
+    "title": "University of North Carolina, Greensboro",
+    "date": "2017-03-23",
+    "location": "Greensboro, NC",
+    "link": "https://vpa.uncg.edu/areas/composition/overview"
+  },
+  {
+    "title": "Hamilton College",
+    "date": "2017-03-04",
+    "location": "Clinton, NY",
+    "link": "http://www.hamilton.edu/academics/departments/Home?dept=Music"
+  },
+  {
+    "title": "SUNY Oswego",
+    "date": "2017-03-02",
+    "location": "Oswego, NY",
+    "link": "https://www.oswego.edu/music/music-department-0"
+  },
+  {
+    "title": "University of South Carolina Upstate",
+    "date": "2017-01-27",
+    "location": "Spartanburg, SC",
+    "link": "https://www.uscupstate.edu/academics/arts_sciences/fine_arts/Default.aspx?id=2046"
+  },
+  {
+    "title": "Francis Marion University",
+    "date": "2017-01-26",
+    "location": "Florence, SC",
+    "link": "http://departments.fmarion.edu/finearts/acmu16.htm#Snyder"
+  },
+  {
+    "title": "In the Mix Faculty & Student Dance Concert",
+    "date": "2013-04-06",
+    "venue": "University of Mary Washington",
+    "location": "Fredericksburg, VA",
+    "link": "https://www.facebook.com/events/112798882224174/"
+  },
+  {
+    "title": "Classical Revolutions RVA: Night of the Living Composer",
+    "date": "2016-05-15",
+    "venue": "Balliceaux",
+    "location": "Richmond, VA",
+    "link": "https://www.facebook.com/events/1786379941589811/"
+  },
+  {
+    "title": "Electroacoustic Barn Dance",
+    "date": "2016-11-10",
+    "venue": "University of Mary Washington",
+    "location": "Fredericksburg, VA",
+    "link": "http://eabarndance.com/"
+  },
+  {
+    "title": "Third Practice New Music Festival",
+    "date": "2016-11-04",
+    "venue": "University of Richmond",
+    "location": "Richmond, VA",
+    "link": "http://www.thirdpractice.org/"
+  },
+  {
+    "title": "West Fork New Music Festival",
+    "date": "2016-09-23",
+    "venue": "Fairmont State University",
+    "location": "Fairmont, WV",
+    "link": "http://www.danieleichenbaum.com/west_fork.htm"
+  },
+  {
+    "title": "Chatham University",
+    "date": "2016-09-08",
+    "location": "Pittsburgh, PA",
+    "link": "http://www.chatham.edu/events/details.cfm?EventID=17078"
+  },
+  {
+    "title": "Penn State University",
+    "date": "2016-09-07",
+    "location": "State College, PA",
+    "link": "http://music.psu.edu/performance/mark-snyder-live-performance-electronics-and-video"
+  },
+  {
+    "title": "Susquehanna University",
+    "date": "2016-09-06",
+    "location": "Selinsgrove, PA",
+    "link": "http://events.susqu.edu/EventList.aspx?view=EventDetails&eventidn=3604&information_id=9471"
+  },
+  {
+    "title": "Dave Watkins, Becky Brown, Mark Snyder, + Dead Gaze",
+    "date": "2016-08-24",
+    "venue": "Balliceaux",
+    "location": "Richmond, VA",
+    "link": "https://www.facebook.com/events/166065763823110/"
+  },
+  {
+    "title": "Virginia to Beijing",
+    "date": "2016-07-13",
+    "venue": "University of International Business and Economics",
+    "location": "Beijing, China",
+    "link": "http://www.uibe.cn/app/eng/"
+  },
+  {
+    "title": "Brooklyn College Electro-Acoustic Music Festival",
+    "date": "2016-03-31",
+    "venue": "Brooklyn College",
+    "location": "Brooklyn, NY"
+  },
+  {
+    "title": "Electric Cafe",
+    "date": "2016-03-28",
+    "venue": "Rutgers University",
+    "location": "Camden, NJ",
+    "link": "https://fas.camden.rutgers.edu/2016/03/23/join-us-for-the-electric-cafe-on-328/"
+  },
+  {
+    "title": "La Laboratoire Cambridge",
+    "date": "2016-03-26",
+    "location": "Boston, MA",
+    "link": "http://www.lelaboratoirecambridge.com/"
+  },
+  {
+    "title": "Ball State New Music Festival",
+    "date": "2016-03-19",
+    "venue": "Ball State University",
+    "location": "Muncie, IN",
+    "link": "http://cms.bsu.edu/calendar/events/academics/school-of-music/2016/03/17/46th-annual-festival-of-new-music"
+  },
+  {
+    "title": "Women Composers Festival of Hartford",
+    "date": "2016-03-12",
+    "venue": "Charter Oak Cultural Center",
+    "location": "Hartford, CT",
+    "link": "http://womencomposersfestivalhartford.com/"
+  },
+  {
+    "title": "Georgia Southern University",
+    "date": "2016-03-01",
+    "location": "Statesboro, GA"
+  },
+  {
+    "title": "Eyedrum Art & Music",
+    "date": "2016-02-29",
+    "location": "Atlanta, GA"
+  },
+  {
+    "title": "Indeterminacies Series",
+    "date": "2016-03-01",
+    "venue": "Zeitgeist Gallery",
+    "location": "Nashville, TN",
+    "link": "http://zeitgeist-art.com/indeterminacies/"
+  },
+  {
+    "title": "UVA/UMW Composer Exchange",
+    "date": "2016-02-20",
+    "venue": "Open Grounds",
+    "location": "Charlottesville, VA"
+  },
+  {
+    "title": "SCI Region III 2016",
+    "date": "2016-02-26",
+    "venue": "Marshall University",
+    "location": "Huntington, WV",
+    "link": "http://www.societyofcomposers.org/conferences/2015_2016/2016region3.html"
+  },
+  {
+    "title": "SEAMUS 2016",
+    "date": "2016-02-11",
+    "venue": "Georgia Southern University",
+    "location": "Statesboro, GA"
+  },
+  {
+    "title": "Root Signals Electronic Music Festival",
+    "date": "2015-09-12",
+    "venue": "Georgia Southern University",
+    "location": "Statesboro, GA",
+    "link": "https://rootsignals.wordpress.com/"
+  },
+  {
+    "title": "West Fork New Music Festival",
+    "date": "2015-09-25",
+    "venue": "Fairmont State University",
+    "location": "Fairmont, WV",
+    "link": "http://www.danieleichenbaum.com/west_fork.htm"
+  },
+  {
+    "title": "Electroacoustic Barn Dance",
+    "date": "2015-10-02",
+    "venue": "University of Mary Washington",
+    "location": "Fredericksburg, VA",
+    "link": "http://eabarndance.com/"
+  },
+  {
+    "title": "West Virginia Craft Week",
+    "date": "2015-10-09",
+    "venue": "Marshall University",
+    "location": "Huntington, WV",
+    "link": "http://www.marshall.edu/ucomm/2015/10/06/marshalls-school-of-art-and-design-to-participate-in-first-west-virginia-craft-week/"
+  },
+  {
+    "title": "Marietta College",
+    "date": "2015-10-10",
+    "location": "Marietta, OH"
+  },
+  {
+    "title": "Capital University",
+    "date": "2015-10-10",
+    "location": "Columbus, OH"
+  },
+  {
+    "title": "Ohio University",
+    "date": "2015-10-10",
+    "location": "Athens, OH"
+  },
+]
