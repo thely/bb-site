@@ -3,6 +3,14 @@ export default {
   /*
    ** Headers of the page
    */
+  publicRuntimeConfig: {
+    social: {
+      instagram: 'https://www.instagram.com/breckelli/',
+      soundcloud: 'https://soundcloud.com/bardbarienne',
+      vimeo: 'https://vimeo.com/user45387982',
+      github: 'https://github.com/thely'
+    }
+  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [

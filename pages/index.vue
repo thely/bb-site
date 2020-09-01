@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div>
-      <logo />
       <h1 class="title">
         becky-site
       </h1>
@@ -25,13 +24,9 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+// import Logo from '~/components/Logo.vue';
 
-export default {
-  components: {
-    Logo
-  }
-}
+export default {};
 </script>
 
 <style>
