@@ -9,3 +9,5 @@ category: composition
 ### Context
 
 I like repetition. I like how much emotional content can come out of mechanical behaviors. This piece about determining your own machine, and seeing it through to its end, while simultaneously attempting to embody something determinedly non-mechanical.
+
+I like trying to boil my life down into smaller concepts. 
