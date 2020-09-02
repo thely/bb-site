@@ -1,6 +1,7 @@
 ---
 title: 👄👂🏻👁️ very close to me 👁️👂🏻👄
 subtitle: fixed media video
+duration: 6'
 date: 2018
 category: composition
 poster: very-close-preview.png

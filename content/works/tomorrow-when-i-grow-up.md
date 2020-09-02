@@ -1,6 +1,7 @@
 ---
 title: Tomorrow, When I Grow Up
 subtitle: voice and live electronics
+duration: "5'10\""
 date: 2017
 excerpt: "Somewhere between watching the whole day pass from under the covers, the future a thing that spits the pause button out of my throat; between rich dreams that I am wading through, gripping whole handfuls, watching them pour between my fingers, a few pocked pearls rolled by my burning palms; between the steps that push me forward, and backward, and forward again, progress built with footsteps built with words that walk their plosives and fricatives and sibilance, delicately, over the steps of the tips of my teeth."
 category: composition

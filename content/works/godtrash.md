@@ -1,6 +1,7 @@
 ---
 title: godtrash
 subtitle: experimental short film
+duration: "3'30\""
 date: 2019
 excerpt: "You really screwed up this time, huh?"
 category: composition
@@ -12,4 +13,4 @@ This piece came from messing around in Jitter, specifically with programmaticall
 
 The patch itself is also nice as an Arthaus-y image generator. Here's what that looks like:
 
-The title is a reference to Car Boys, a long YouTube series by Polygon about messing around in beamNG.drive, a "game"/simulator/playground with realistic destructible car physics. Whenever a collision would erupt a car mesh all over the screen, its polygons stretching infinitely in every direction, they called it "god trash."
+The title is a reference to Car Boys, a long YouTube series from Polygon about messing around in beamNG.drive, a "game"/simulator/playground with realistic destructible car physics. Whenever a collision would erupt a car mesh all over the screen, its polygons stretching infinitely in every direction, they called it "god trash."

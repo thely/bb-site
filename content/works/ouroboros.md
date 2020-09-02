@@ -1,6 +1,7 @@
 ---
 title: Ouroboros
 subtitle: body controller and live electronics
+duration: 6'
 date: 2018
 category: composition
 poster: ouroboros-preview.png

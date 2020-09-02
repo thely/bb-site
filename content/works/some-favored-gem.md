@@ -1,6 +1,7 @@
 ---
 title: some favored gem
 subtitle: saxophone quartet and fixed media
+duration: "4'50\""
 date: 2018
 excerpt: "at first I liked how bright you shone, how smooth under my thumbs; i could call on you like a star, for some hopeful future. but all the sweat and sand and polish, whetstone and wishing... I can no longer touch you without bleeding."
 ---

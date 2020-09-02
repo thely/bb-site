@@ -1,6 +1,7 @@
 ---
 title: Hold Still
 subtitle: live art and electronics
+duration: "5'35\""
 date: 2015
 excerpt: "A multimedia self-portrait, 2015. Pencil, copper, and Arduino on paper, poetry and video in Max/MSP/Jitter. Drawings anchor my memories far better than photographs; poetry tells my stories better than prose. This piece is more true to me than I am to myself."
 category: composition
