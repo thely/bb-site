@@ -2,8 +2,8 @@
   <div class="cvItem">
     <div class="left"><slot name="left" /></div>
     <div class="right">
-      <h3><slot name="ti" /></h3>
-      <p><slot name="loc" /></p>
+      <h4><slot name="ti" /></h4>
+      <p class="loc"><slot name="loc" /></p>
       <p><slot name="desc" /></p>
     </div>
   </div>
@@ -11,19 +11,32 @@
 
 <script>
 export default {
-  created() {
-    console.log("this cvline exists!");
-  }
+  // created() {
+  //   console.log("this cvline exists!");
+  // }
 };
 </script>
 
 <style lang="scss">
 .cvItem {
   display: flex;
+  margin-bottom: 0.5em;
 
   .left {
+    font-size: 0.9em;
     float: left;
-    width: 25%;
+    margin-right: 2em;
+    // max-width: 15%;
+    text-align: right;
+    width: 20%;
+  }
+
+  .right {
+    width: 75%;
+  }
+
+  .loc {
+    font-style: italic;
   }
 }
 </style>

@@ -1,32 +1,46 @@
 <template>
-  <div v-if="events && events.length > 0" class="eventsList">
-    <div v-for="(event, key) in events" :key="key">
-      <p>{{ event.title }}</p>
-      <p>{{ event.date }}</p>
+  <div v-if="years" class="eventsList">
+    <div v-for="(year, key) in years" :key="key" class="yearEntry">
+      <p class="left">{{ year }}</p>
+      <div class="eventsPerYear">
+        <div
+          v-for="(event, ekey) in eventsByYear(year)"
+          :key="ekey"
+          class="right"
+        >
+          <p>{{ event.title }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  async fetch() {
-    try {
-      const evts = await this.$store.dispatch("events/loadEvents");
-      this.events = evts;
-    } catch (e) {
-      console.log("failed to get events");
-      console.log(e);
+  computed: {
+    years() {
+      return this.$store.state.events.years;
     }
   },
-  data() {
-    return {
-      events: []
-    };
-  },
-  created() {
-    console.log("this is a page!");
+  methods: {
+    eventsByYear(year) {
+      return this.$store.getters["events/eventsByYear"](year);
+    }
   }
 };
 </script>
 
-<style></style>
+<style lang="scss">
+.eventsList {
+  .yearEntry {
+    display: flex;
+  }
+
+  .left {
+    width: 25%;
+  }
+  .eventsPerYear {
+    width: 75%;
+  }
+}
+</style>

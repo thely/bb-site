@@ -1,12 +1,53 @@
 <template>
   <div>
     <Navigation />
-    <nuxt />
+    <nuxt class="page-wrap" />
     <Footer />
+    <SideGraphic :hover="hover" />
+    <ColorModePicker />
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  data() {
+    return {
+      hover: false
+    };
+  },
+  watch: {
+    $route() {
+      this.hover = false;
+      let l = this;
+      setTimeout(function() {
+        l.makeHovers();
+      }, 300);
+      // });
+    }
+  },
+  mounted() {
+    this.makeHovers();
+  },
+  methods: {
+    makeHovers() {
+      let links = document.querySelectorAll("a");
+      for (let link of links) {
+        link.addEventListener("mouseenter", this.listener);
+        link.addEventListener("mouseleave", this.listener);
+      }
+    },
+    listener(e) {
+      if (e.type == "mouseenter") {
+        this.hover = true;
+      } else if (e.type == "mouseleave") {
+        this.hover = false;
+      }
+    }
+  }
+};
+</script>
+
+<style lang="scss">
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -26,32 +67,28 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+.page-wrap {
+  margin-left: 20px;
+  width: 50%;
+
+  p,
+  h3,
+  h4,
+  ul li,
+  blockquote {
+    // transform: rotate(0.5deg) skewY(-2deg);
+    transform: skewY(-1deg);
+  }
+  p,
+  ul,
+  blockquote {
+    margin-bottom: 1em;
+  }
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+p,
+ul,
+blockquote {
+  /* margin-bottom: 1em; */
 }
 </style>

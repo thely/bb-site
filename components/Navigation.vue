@@ -14,13 +14,55 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
+<style lang="scss">
+.navigation {
+  margin-bottom: 3em;
 
-ul li {
-  display: inline-block;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    a {
+      background-color: transparent;
+      border: 0px solid transparent;
+      // border: 2px solid #ffb5a9;
+      // border-top: 0px solid transparent;
+      display: block;
+      font-family: var(--header-font);
+      padding: 0.5em;
+      position: relative;
+      text-decoration: none;
+    }
+
+    a::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 5px double var(--header-col);
+      border-top: 0px solid transparent;
+      // transition: padding-bottom 0.5s;
+      transition: height 0.5s;
+      z-index: -1;
+    }
+
+    a.nuxt-link-active::after {
+      // padding-bottom: 2em;
+      height: 150%;
+    }
+
+    a:hover::after {
+      // padding-bottom: 5em;
+      height: 100vh;
+      transition: height 5s;
+      // transition: padding-bottom 5s;
+    }
+  }
 }
 </style>
