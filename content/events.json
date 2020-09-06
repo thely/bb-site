@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "title": "VASTLAB Experimental Festival 2020",
+      "date": "2020-12-17",
+      "start": "2020-12-17",
+      "end": "2020-12-19",
+      "location": "Los Angeles, CA",
+      "link": "http://vastlab.org/"
+    },
+    {
+      "title": "'The Other Side' exhibition",
+      "date": "2020-10-01",
+      "start": "2020-09-14",
+      "end": "2020-10-31",
+      "location": "anonymous waves (online)",
+      "link": "https://www.anonymouswaves.org/p/white-page-gallery.html"
+    },
+    {
       "title": "Digitalis",
       "date": "2020-05-06",
       "venue": "University of Virginia",
