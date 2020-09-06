@@ -31,7 +31,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ["assets/scss/style.scss"],
   /*
    ** Plugins to load before mounting the App
    */
@@ -41,7 +41,7 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    "@nuxtjs/eslint-module"
+    "@nuxtjs/color-mode"
   ],
   /*
    ** Nuxt.js modules
