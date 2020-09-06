@@ -5,6 +5,7 @@ duration: "5'10\""
 date: 2017
 excerpt: "Somewhere between watching the whole day pass from under the covers, the future a thing that spits the pause button out of my throat; between rich dreams that I am wading through, gripping whole handfuls, watching them pour between my fingers, a few pocked pearls rolled by my burning palms; between the steps that push me forward, and backward, and forward again, progress built with footsteps built with words that walk their plosives and fricatives and sibilance, delicately, over the steps of the tips of my teeth."
 category: composition
+subcat: solo_elec
 ---
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/426273273&color=ff5500"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/bardbarienne" title="bardbarienne" target="_blank" style="color: #cccccc; text-decoration: none;">bardbarienne</a> · <a href="https://soundcloud.com/bardbarienne/tomorrow-empties" title="Tomorrow, When I Grow Up - i. the empties" target="_blank" style="color: #cccccc; text-decoration: none;">Tomorrow, When I Grow Up - i. the empties</a></div>

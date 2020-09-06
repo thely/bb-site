@@ -5,6 +5,7 @@ duration: "4'50\""
 date: 2020
 excerpt: "A liminal space is a liminal space is a lmnial spa ce i paace A limin s pa li mna space is space is space is a liimin lnaa spi liminal liminal spsp ANimal speci le scepim nillima ellaminis cesna alimin aces laces animal special alleminiam asp case is a kn i. A kn i. A kn i. A liminal spa is ce f. A kni. f. F. F>"
 category: composition
+subcat: film
 ---
 
 <iframe src="https://player.vimeo.com/video/393748874?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

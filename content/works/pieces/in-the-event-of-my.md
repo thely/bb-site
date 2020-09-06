@@ -5,6 +5,7 @@ duration: "8'30\""
 date: 2019
 excerpt: "When I was in high school, there was a block near me that had a Chinese restaurant, a big craft store, and a shoddy movie theater. When the Chinese place shut down, I realized none of the kids in the area after us would share the memory of trying to bring too many people to sit at one table, ordering the wrong thing off the menu, and then stressing about getting to a movie on time. The craft store and the movie theater shut down not long after."
 category: composition
+subcat: chamber
 ---
 
 ### Context

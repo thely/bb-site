@@ -1,6 +1,7 @@
 ---
 title: components
 subtitle: Nuxt, NodeJS
+excerpt: Articles about data, run by Andrew Thompson. Made with NuxtJS.
 date: 2020
 category: website
 link: https://components.one

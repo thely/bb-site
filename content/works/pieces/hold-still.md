@@ -5,6 +5,7 @@ duration: "5'35\""
 date: 2015
 excerpt: "A multimedia self-portrait, 2015. Pencil, copper, and Arduino on paper, poetry and video in Max/MSP/Jitter. Drawings anchor my memories far better than photographs; poetry tells my stories better than prose. This piece is more true to me than I am to myself."
 category: composition
+subcat: solo_elec
 ---
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/198418643?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

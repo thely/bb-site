@@ -2,6 +2,7 @@
 title: I have a deep and enduring need to become real
 subtitle: for combined chamber and electronics ensembles
 category: composition
+subcat: chamber
 date: 2019
 excerpt: |
   I have a deep and enduring need to become real,

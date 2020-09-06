@@ -4,6 +4,7 @@ subtitle: fixed media video
 duration: 6'
 date: 2018
 category: composition
+subcat: film
 poster: very-close-preview.png
 
 excerpt: "I’d like to help you feel more comfortable this evening. Do you think you could sit with me for awhile?"

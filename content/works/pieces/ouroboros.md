@@ -4,6 +4,7 @@ subtitle: body controller and live electronics
 duration: 6'
 date: 2018
 category: composition
+subcat: solo_elec
 poster: ouroboros-preview.png
 
 excerpt: |
