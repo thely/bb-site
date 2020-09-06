@@ -20,9 +20,14 @@ export default {
     };
   },
   created() {
-    console.log("this is a page!");
+    // console.log("this is a page!");
   }
 };
 </script>
 
-<style></style>
+<style lang="scss">
+h2 {
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+}
+</style>
