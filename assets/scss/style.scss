@@ -1,0 +1,81 @@
+@import "fonts";
+
+:root {
+  --body-font: 'AaltoSans-LightDEMO';
+  --header-font: 'Karrik-Regular';
+
+  --side-col1: yellow;
+  --side-col2: #81ff81;
+  --side-colpara: rgba(60, 141, 244, 0.45);
+  --header-col: #ffb5a9;
+  --bg-col: white;
+  --text-col: black;
+  // --link-col: #00f3ff;
+  --link-col: #f93434;
+}
+
+.dark-mode{
+  --side-col1: #959313e6;
+  --side-col2: #1c7971ed;
+  --side-colpara: rgba(60, 141, 244, 0.83);
+  --header-col: #8416ac;
+  --bg-col: #171111;
+  --text-col: #dee6ee;
+
+}
+
+* {
+  // font-family: 'Phrasa-ExtraLight';
+  // font-family: 'AaltoSans-LightDEMO';
+  // font-family: 'HaboroSans-NorReg';
+  // font-family: 'TofinoPersonal-Book';
+  // font-family: 'Karrik-Regular';
+  font-family: var(--body-font);
+}
+
+body {
+  font-size: 19px;
+  background-color: var(--bg-col);
+  color: var(--text-col);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  // font-family: 'BiwaAgate-Black';
+  // font-family: 'CallingCode-Bold';
+  // font-family: 'Karrik-Regular';
+  font-family: var(--header-font);
+  // font-family: 'IverseMono-Regular';
+  // color: #ddabab;
+}
+
+// .left {
+//   font-family: 'CallingCode-Regular';
+//   font-size: 0.8em;
+// }
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.5em;
+}
+
+a, a:hover, a:visited, a:link {
+  color: var(--text-col);
+  // background-color: #ffd531;
+  // background-color: #ffb5a9;
+  // border: 5px double #ffb5a9;
+  text-decoration-color: var(--link-col);
+  text-decoration-style: double;
+  transition: color 0.25s, background-color 0.25s;
+}
+
+a:hover {
+  background-color: var(--header-col);
+  color: blue;
+  transition: color 5s, background-color 5s;
+  // transform: rotateX(-2deg);
+}
