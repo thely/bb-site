@@ -101,7 +101,7 @@ export default {
 
   p.highlight {
     display: inline;
-    background-color: var(--side-colpara);
+    background-color: var(--side-colpara2);
   }
 
   span {

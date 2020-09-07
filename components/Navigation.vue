@@ -1,11 +1,14 @@
 <template>
   <nav class="navigation">
     <ul>
+      <li>
+        <nuxt-link to="/">becky</nuxt-link>
+      </li>
       <li><nuxt-link to="/works">works</nuxt-link></li>
-      <li><nuxt-link to="/news">news</nuxt-link></li>
+      <!-- <li><nuxt-link to="/news">news</nuxt-link></li> -->
       <li><nuxt-link to="/events">events</nuxt-link></li>
       <li><nuxt-link to="/about">about</nuxt-link></li>
-      <li><nuxt-link to="/cv">c.v.</nuxt-link></li>
+      <!-- <li><nuxt-link to="/cv">c.v.</nuxt-link></li> -->
     </ul>
   </nav>
 </template>
@@ -17,9 +20,14 @@ export default {};
 <style lang="scss">
 .navigation {
   margin-bottom: 3em;
+  position: relative;
+  width: 50%;
+  z-index: 100;
+  // margin-left: 1em;
 
   ul {
     list-style-type: none;
+    // margin-left: 1em;
     padding-left: 0;
   }
 
@@ -52,7 +60,7 @@ export default {};
       z-index: -1;
     }
 
-    a.nuxt-link-active::after {
+    a.nuxt-link-exact-active::after {
       // padding-bottom: 2em;
       height: 150%;
     }
@@ -62,6 +70,19 @@ export default {};
       height: 100vh;
       transition: height 5s;
       // transition: padding-bottom 5s;
+    }
+  }
+
+  ul li:first-child {
+    margin-left: 0.6em;
+    margin-right: 2em;
+  }
+
+  ul li:first-child a {
+    color: var(--header-col);
+
+    &:after {
+      display: none;
     }
   }
 }

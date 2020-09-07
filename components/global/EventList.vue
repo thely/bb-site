@@ -8,7 +8,11 @@
           :key="ekey"
           class="right"
         >
-          <p>{{ event.title }}</p>
+          <h5>{{ event.title }}</h5>
+          <p>
+            <span v-if="event.venue">{{ event.venue }} - </span
+            >{{ event.location }}
+          </p>
         </div>
       </div>
     </div>
@@ -37,10 +41,16 @@ export default {
   }
 
   .left {
+    padding-right: 2em;
+    text-align: right;
     width: 25%;
   }
   .eventsPerYear {
     width: 75%;
+  }
+
+  h5 {
+    margin-bottom: 0;
   }
 }
 </style>

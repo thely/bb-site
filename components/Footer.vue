@@ -17,4 +17,12 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss">
+.footer {
+  border-top: 1px dashed grey;
+  font-size: 0.9em;
+  margin-top: 3em;
+  padding: 1em;
+  width: 50%;
+}
+</style>

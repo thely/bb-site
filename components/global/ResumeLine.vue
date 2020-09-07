@@ -33,6 +33,10 @@ export default {
 
   .right {
     width: 75%;
+
+    h4 {
+      margin-bottom: 0;
+    }
   }
 
   .loc {
