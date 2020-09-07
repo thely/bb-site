@@ -1,36 +1,41 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">
-        becky-site
-      </h1>
-      <h2 class="subtitle">
-        Portfolio site redo for myself
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div class="home">
+    <nuxt-content class="page-body" :document="post" />
   </div>
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue';
+import { buildMeta } from "~/utils/index.js";
 
-export default {};
+export default {
+  async asyncData({ $content, params, error }) {
+    // const slug = this.$route.params.slug || "index";
+    const post = await $content("home")
+      .fetch()
+      .catch(err => {
+        console.log(err);
+        return error({ statusCode: 404, message: "Page not found" });
+      });
+
+    return {
+      post
+    };
+  },
+  head() {
+    return buildMeta({
+      base: this.$config.baseUrl,
+      title: this.post.title,
+      description: this.post.description,
+      image: this.post.image,
+      url: "",
+      type: "website"
+    });
+  }
+};
 </script>
 
 <style>
-.container {
+/* .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -59,5 +64,5 @@ export default {};
 
 .links {
   padding-top: 15px;
-}
+} */
 </style>

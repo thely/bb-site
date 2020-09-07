@@ -13,14 +13,15 @@
       "date": "2020-10-01",
       "start": "2020-09-14",
       "end": "2020-10-31",
-      "location": "anonymous waves (online)",
+      "location": "anonymous waves",
       "link": "https://www.anonymouswaves.org/p/white-page-gallery.html"
     },
     {
       "title": "Digitalis",
       "date": "2020-05-06",
       "venue": "University of Virginia",
-      "location": "Charlottesville, VA"
+      "location": "Charlottesville, VA",
+      "link": "https://www.youtube.com/playlist?list=PL68Yh83v4cy_OLONXdq7slBPhmX8De1yw"
     },
     {
       "title": "Technosonics",
@@ -93,20 +94,8 @@
     {
       "title": "Fall Dance Concert",
       "date": "2018-11-17",
-      "venue": "Culbreth Theater",
-      "location": "Charlottesville, VA",
-      "link": "http://www.c-ville.com/arts-pick-fall-dance-concert/"
-    },
-    {
-      "title": "Fall Dance Concert",
-      "date": "2018-11-16",
-      "venue": "Culbreth Theater",
-      "location": "Charlottesville, VA",
-      "link": "http://www.c-ville.com/arts-pick-fall-dance-concert/"
-    },
-    {
-      "title": "Fall Dance Concert",
-      "date": "2018-11-15",
+      "start": "2018-11-15",
+      "end": "2018-11-17",
       "venue": "Culbreth Theater",
       "location": "Charlottesville, VA",
       "link": "http://www.c-ville.com/arts-pick-fall-dance-concert/"

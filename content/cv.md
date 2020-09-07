@@ -1,4 +1,6 @@
 ---
+title: Curriculum Vitae
+description: full online resume for Becky Brown
 ---
 
 ## Education
@@ -119,13 +121,13 @@
 
 ## Works
 
-#### Solo
+### Solo
 <work-list subcat="solo_elec"></work-list>
 
-#### Chamber
+### Chamber
 <work-list subcat="chamber"></work-list>
 
-#### Film
+### Film
 <work-list subcat="film"></work-list>
 
 ## Projects

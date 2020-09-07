@@ -1,6 +1,6 @@
 <template>
   <div class="events-page">
-    <h2>events</h2>
+    <h2>Events</h2>
     <div v-if="events && events.length > 0" class="events">
       <div
         v-for="(event, key) in events"
@@ -12,23 +12,32 @@
           <a v-if="event.link" :href="event.link">{{ event.title }}</a>
           <template v-else>{{ event.title }}</template>
         </p>
-        <p>{{ postDate(event.date) }}</p>
+        <p class="event-details">
+          <template v-if="!event.start">⏱️ {{ postDate(event.date) }}</template>
+          <template v-else
+            >⌛ {{ postDate(event.start) }} -
+            {{ postDate(event.end) }}</template
+          >
+          <template v-if="event.location"
+            ><br />
+            📌 {{ event.location }}</template
+          >
+        </p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-const { formatPostDate } = require("~/utils/index.js");
+const { formatDateSmall, buildMeta } = require("~/utils/index.js");
 export default {
   computed: {
+    years() {
+      return this.$store.state.events.years;
+    },
     events() {
       return this.$store.state.events.list;
     }
-  },
-
-  created() {
-    // console.log("this is a page!");
   },
   methods: {
     generateStyle(key) {
@@ -44,8 +53,11 @@ export default {
       let retval = `margin-top: ${top}em; margin-left: ${left}em;`;
       return retval;
     },
+    eventsByYear(year) {
+      return this.$store.getters["events/eventsByYear"](year);
+    },
     postDate(d) {
-      return formatPostDate(d);
+      return formatDateSmall(d);
     },
     classList(event) {
       let retval = "event-single";
@@ -55,6 +67,16 @@ export default {
 
       return retval;
     }
+  },
+  head() {
+    return buildMeta({
+      base: this.$config.baseUrl,
+      title: "Events",
+      description: "list of past and upcoming concerts and showings",
+      image: "/images/becky-brown.jpg",
+      url: "events",
+      type: "website"
+    });
   }
 };
 </script>
@@ -67,6 +89,7 @@ export default {
   grid-gap: 10px;
 
   .event-single {
+    background-color: var(--bg-col);
     border: 2px double grey;
     // float: left;
     display: inline-block;
@@ -75,9 +98,24 @@ export default {
     width: 100%;
   }
 
+  .event-details {
+    font-size: 0.8em;
+  }
+
+  div:nth-child(2n) {
+    transform: rotate(-1deg);
+  }
+  div:nth-child(2n + 1) {
+    transform: rotate(2deg);
+  }
+  div:nth-child(3n) {
+    transform: rotate(-3deg);
+  }
+  div:nth-child(8n) {
+    transform: rotate(3deg);
+  }
+
   .event-single.upcoming {
-    // border-style: dotted;
-    // border-color: var(--link-col);
     border: 5px dotted var(--link-col);
   }
 }
