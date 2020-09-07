@@ -3,7 +3,11 @@ title: PBS AppleTV prototype
 subtitle: XML and Python
 date: 2013
 category: code
+code_link: https://github.com/pbs/matchmaker
+image: /images/code/appletv-pbs-home.png
 ---
+
+![](/images/code/appletv-pbs-home.png)
 
 As part of a summer internship with PBS Digital, I had the opportunity to prototype the PBS AppleTV app. An interesting experience, for sure - at the time, the AppleTV had just been released, and only ~30 companies had access to the documentation. Which was emailed to you as a PDF attachment. Dang!
 

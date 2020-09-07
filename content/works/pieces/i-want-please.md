@@ -9,6 +9,7 @@ excerpt: |
   This piece is dedicated to the staff and students at Heather Empfield Day School and Transition Center, a school for children with severe and profound autism.
 category: composition
 subcat: solo_elec
+image: /images/pieces/i-want.jpg
 ---
 
 ### Listen

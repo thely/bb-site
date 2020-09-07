@@ -10,7 +10,12 @@ excerpt: |
   broken things I could make my new teachers, or
   break instead just to prove I can, or
   better: throw out the damn trash
+image: /images/pieces/deep-end.png
 ---
+
+### Listen
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eGOnedLvk7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Context
 
