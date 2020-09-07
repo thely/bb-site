@@ -4,6 +4,7 @@ export default {
    ** Headers of the page
    */
   publicRuntimeConfig: {
+    baseUrl: "http://localhost:3000/",
     social: {
       instagram: "https://www.instagram.com/breckelli/",
       soundcloud: "https://soundcloud.com/bardbarienne",
@@ -12,7 +13,9 @@ export default {
     }
   },
   head: {
-    title: process.env.npm_package_name || "",
+    titleTemplate: titleChunk => {
+      return titleChunk ? `${titleChunk} | Becky Brown` : "Becky Brown";
+    },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -20,9 +23,24 @@ export default {
         hid: "description",
         name: "description",
         content: process.env.npm_package_description || ""
+      },
+      {
+        hid: "og:locale",
+        name: "og:locale",
+        content: "en_US"
+      },
+      {
+        hid: "og:site_name",
+        name: "og:site_name",
+        content: "Becky Brown"
+      },
+      {
+        hid: "twitter:card",
+        id: "twitter:card",
+        content: "summary_large_image"
       }
-    ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    ]
+    // link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
   /*
    ** Customize the progress-bar color

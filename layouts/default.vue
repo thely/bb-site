@@ -69,7 +69,9 @@ html {
 
 .page-wrap {
   margin-left: 20px;
+  position: relative;
   width: 50%;
+  z-index: 100;
 
   p,
   h3,
@@ -86,9 +88,30 @@ html {
   }
 }
 
-p,
-ul,
-blockquote {
-  /* margin-bottom: 1em; */
+@media (max-width: 650px) {
+  .page-wrap {
+    margin-left: 0;
+    padding: 1em;
+    width: 100%;
+  }
+  .pattern {
+    opacity: 25%;
+  }
+  .color-picker {
+    display: none;
+  }
+  .navigation ul li:first-child {
+    margin-right: 0.6em !important;
+  }
+  .footer {
+    width: 100% !important;
+  }
+  .events {
+    grid-template-columns: 2fr 2fr !important;
+  }
+  iframe {
+    height: auto;
+    max-width: 100%;
+  }
 }
 </style>
