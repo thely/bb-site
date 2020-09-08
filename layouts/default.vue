@@ -100,7 +100,7 @@ html {
     width: 100% !important;
   }
   .pattern {
-    opacity: 0.5;
+    opacity: 0.3;
   }
   .color-picker {
     display: none;
