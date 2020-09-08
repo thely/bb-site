@@ -4,9 +4,9 @@
     <h2 v-if="work.category == 'composition'" class="work-subtitle">
       {{ work.subtitle }}, {{ work.date }}
     </h2>
-    <blockquote v-if="work.category == 'composition'" class="excerpt">
-      {{ work.excerpt }}
-    </blockquote>
+    <pre v-if="work.category == 'composition'" class="excerpt">
+      {{ makeExcerpt(work.excerpt) }}
+    </pre>
     <h3 v-if="work.category == 'code'">
       <a v-if="work.link" :href="work.link">view site</a>
       <template v-if="work.link && work.code_link"> - </template>
@@ -25,6 +25,11 @@ export default {
       return this.$store.getters["works/getWork"](this.$route.params.slug);
     }
   },
+  methods: {
+    makeExcerpt(text) {
+      return text.trim();
+    }
+  },
   head() {
     return buildMeta({
       base: this.$config.baseUrl,
@@ -35,15 +40,6 @@ export default {
       type: "website"
     });
   }
-  // mounted() {
-  //   let elems = document.querySelectorAll("p");
-  //   elems.forEach(e => {
-  //     // let num = Math.random() * 4;
-  //     // e.style.marginLeft = `${num}em`;
-  //     // num = Math.random();
-  //     // e.style.transform = `rotate(${num}deg)`;
-  //   });
-  // }
 };
 </script>
 
@@ -51,9 +47,13 @@ export default {
 .work {
   .excerpt {
     border-left: 4px solid var(--side-colpara);
+    font-style: italic;
     margin-left: 0.5em;
     margin-top: 1em;
     padding-left: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    white-space: pre-line;
   }
   p,
   ul {
