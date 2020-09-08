@@ -92,10 +92,15 @@ html {
   .page-wrap {
     margin-left: 0;
     padding: 1em;
-    width: 100%;
+    // width: 100%;
+  }
+  .page-wrap,
+  .navigation,
+  .footer {
+    width: 100% !important;
   }
   .pattern {
-    opacity: 25%;
+    opacity: 50%;
   }
   .color-picker {
     display: none;
@@ -112,6 +117,9 @@ html {
   iframe {
     height: auto;
     max-width: 100%;
+  }
+  .gallery p {
+    grid-template-columns: 1fr;
   }
 }
 </style>
