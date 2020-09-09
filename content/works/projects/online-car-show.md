@@ -30,5 +30,12 @@ Proposals for categories not included in this list and works-in-progress are all
 
 ### Submissions
 
-* **Due date: November 15th.**
+##### Due date: November 15th
+
+##### [Click here to go to the submission form.](https://forms.gle/bGsT6VohLXpGiANb7)
+
+**Submission restrictions:**
+
 * All works should be sent as non-expiring links.
+* Each artist or collective can submit works in multiple categories, but you must submit a separate form for each work you intend to submit.
+* *Exception*: 5 haikus/sound design haikus can be submitted in a single submission form.

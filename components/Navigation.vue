@@ -40,6 +40,7 @@ export default {};
       // border-top: 0px solid transparent;
       display: block;
       font-family: var(--header-font);
+      outline: none;
       padding: 0.5em;
       position: relative;
       text-decoration: none;
