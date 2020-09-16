@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 export default {
   mode: "universal",
   /*
@@ -63,12 +65,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     "@nuxtjs/color-mode",
-    [
-      "@nuxtjs/google-analytics",
-      {
-        id: process.env.GTAG_ID
-      }
-    ]
+    "@nuxtjs/google-analytics"
   ],
   googleAnalytics: {
     id: process.env.GTAG_ID
