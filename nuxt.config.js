@@ -82,14 +82,14 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {}
   /*
    ** Build configuration
    */
-  build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) { }
-  }
+  // build: {
+  //   /*
+  //    ** You can extend webpack config here
+  //    */
+  //   extend(config, ctx) { }
+  // }
 };

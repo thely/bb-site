@@ -22,7 +22,11 @@ import { buildMeta } from "~/utils/index.js";
 export default {
   computed: {
     work() {
-      return this.$store.getters["works/getWork"](this.$route.params.slug);
+      try {
+        return this.$store.getters["works/getWork"](this.$route.params.slug);
+      } catch (err) {
+        return this.$nuxt.error({ statusCode: 404, message: err });
+      }
     }
   },
   methods: {
