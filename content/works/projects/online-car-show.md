@@ -1,6 +1,7 @@
 ---
 title: the Incurable Caravan’s Online Car Show
 subtitle: curated online gallery exhibit
+excerpt: an indefinite, multidisciplinary online exhibit, loosely focused on interpretations of automotive transportation
 date: 2021
 duration: indefinite duration
 category: projects
@@ -23,7 +24,7 @@ Any media capable of existing online is encouraged, especially media that are no
 
 * literary: poetry, short prose (< 500 words), haiku, interviews, interactive fiction
 * static visual: all traditional visual media: drawing, painting, photography, graphic/product design. For sculpture, 3D photoscans or multiple photos are acceptable.
-* moving visual: short film (< 3m), silent animations (gif/mp4)
+* moving visual: short film (< 3m), silent animations (gif/mp4), filmed choreography
 * 3D: any 3D model or scene below 50k polygons
 * audio: short pieces or songs (< 3m, loopable or not), interactive web audio, original sound design haikus (< 10s)
 * multimedia: any combination of the above

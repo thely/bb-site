@@ -38,7 +38,7 @@ function buildMeta(args) {
     meta: [
       {
         hid: "og:title",
-        name: "og:title",
+        property: "og:title",
         content: args.title || d,
       },
       {
@@ -53,7 +53,7 @@ function buildMeta(args) {
       },
       {
         hid: "og:description",
-        name: "og:description",
+        property: "og:description",
         content: args.description || "",
       },
       {
@@ -63,12 +63,12 @@ function buildMeta(args) {
       },
       {
         hid: "og:url",
-        name: "og:url",
+        property: "og:url",
         content: site + args.url,
       },
       {
         hid: "og:type",
-        name: "og:type",
+        property: "og:type",
         content: args.type || "website",
       },
     ],
@@ -82,7 +82,7 @@ function buildMeta(args) {
     });
     retVal.meta.push({
       hid: "og:image",
-      name: "og:image",
+      property: "og:image",
       content: site + args.image.substr(1) || "",
     });
   }

@@ -29,17 +29,17 @@ export default {
       },
       {
         hid: "og:locale",
-        name: "og:locale",
+        property: "og:locale",
         content: "en_US"
       },
       {
         hid: "og:site_name",
-        name: "og:site_name",
+        property: "og:site_name",
         content: "Becky Brown"
       },
       {
         hid: "twitter:card",
-        id: "twitter:card",
+        name: "twitter:card",
         content: "summary_large_image"
       }
     ]
