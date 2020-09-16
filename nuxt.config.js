@@ -62,8 +62,17 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    "@nuxtjs/color-mode"
+    "@nuxtjs/color-mode",
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: process.env.GTAG_ID
+      }
+    ]
   ],
+  googleAnalytics: {
+    id: process.env.GTAG_ID
+  },
   /*
    ** Nuxt.js modules
    */
