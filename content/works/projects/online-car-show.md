@@ -6,6 +6,8 @@ date: 2021
 duration: indefinite duration
 category: projects
 image: /images/car-show.png
+
+prefer_meta: excerpt
 ---
 
 ![](/images/car-show.png)

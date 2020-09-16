@@ -34,7 +34,9 @@ export default {
     return buildMeta({
       base: this.$config.baseUrl,
       title: this.work.title,
-      description: this.work.subtitle || this.work.excerpt,
+      description: this.work.prefer_meta
+        ? this.work[this.work.prefer_meta]
+        : this.work.subtitle || this.work.excerpt,
       image: this.work.image || "",
       url: "work/" + this.$route.params.slug,
       type: "website"
