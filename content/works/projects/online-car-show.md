@@ -4,6 +4,7 @@ subtitle: curated online gallery exhibit
 date: 2021
 duration: indefinite duration
 category: projects
+image: /images/car-show.png
 ---
 
 ![](/images/car-show.png)

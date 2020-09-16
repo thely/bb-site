@@ -4,7 +4,10 @@ export default {
    ** Headers of the page
    */
   publicRuntimeConfig: {
-    baseUrl: "http://localhost:3000/",
+    baseUrl:
+      process.env.NODE_ENV == "production"
+        ? "https://becky-brown.org/"
+        : "http://localhost:3000/",
     social: {
       instagram: "https://www.instagram.com/breckelli/",
       soundcloud: "https://soundcloud.com/bardbarienne",
