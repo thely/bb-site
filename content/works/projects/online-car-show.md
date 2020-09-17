@@ -24,7 +24,7 @@ Works submitted should include, allude to, or represent some elements of a car (
 
 Any media capable of existing online is encouraged, especially media that are normally challenging to program or format in other contexts. This includes:
 
-* literary: poetry, short prose (< 500 words), haiku, interviews, interactive fiction
+* literary: poetry, short prose (< 1000 words), haiku, interviews, interactive fiction
 * static visual: all traditional visual media: drawing, painting, photography, graphic/product design. For sculpture, 3D photoscans or multiple photos are acceptable.
 * moving visual: short film (< 3m), silent animations (gif/mp4), filmed choreography
 * 3D: any 3D model or scene below 50k polygons
@@ -52,7 +52,7 @@ If displaying your work requires hosting outside our own (due to file sizes or u
 
 ### Agreements
 
-All work remains your own. We do not require submitted works to be exclusive to the Car Show.
+All work remains your own. We do not require submitted works to be exclusive to the Car Show. You affirm that you created the work you are submitting. If you're a performer and you'd like to submit a recording of yourself playing a piece written by someone else, ask them to submit the form on your behalf.
 
 ### Submissions
 
