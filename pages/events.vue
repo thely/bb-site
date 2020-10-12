@@ -61,7 +61,9 @@ export default {
     },
     classList(event) {
       let retval = "event-single";
-      if (new Date(event.date) > new Date()) {
+      if ("end" in event && new Date(event.end) > new Date()) {
+        retval += " upcoming";
+      } else if (new Date(event.date) > new Date()) {
         retval += " upcoming";
       }
 
