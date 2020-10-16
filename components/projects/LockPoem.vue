@@ -151,7 +151,10 @@
           The freeway was at least 100 feet away. Who would ever see you?
         </p>
         <svg
-          class="woman-outline"
+          :class="{
+            'woman-outline': true,
+            exists: isPressed
+          }"
           width="100%"
           height="100%"
           viewBox="0 0 286 271"
@@ -1473,7 +1476,7 @@ export default {
 
 <style lang="scss">
 :root {
-  --sill-color: rgba(204, 250, 255, 1);
+  --sill-color: rgb(119, 37, 106);
 }
 .lock-poem-parent {
   background-color: white;
@@ -1619,11 +1622,17 @@ export default {
     bottom: 0;
     left: 0;
     fill: red;
+    opacity: 0;
 
     text {
       color: red;
       fill: red;
       font-size: 35px;
+    }
+
+    &.exists {
+      opacity: 1;
+      transition: opacity 10s;
     }
   }
 }
