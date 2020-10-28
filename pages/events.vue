@@ -13,10 +13,14 @@
           <template v-else>{{ event.title }}</template>
         </p>
         <p class="event-details">
-          <template v-if="!event.start">⏱️ {{ postDate(event.date) }}</template>
+          <template v-if="!event.start">📅 {{ postDate(event.date) }}</template>
           <template v-else
             >⌛ {{ postDate(event.start) }} -
             {{ postDate(event.end) }}</template
+          >
+          <template v-if="event.venue"
+            ><br />
+            🏠 {{ event.venue }}</template
           >
           <template v-if="event.location"
             ><br />
@@ -101,6 +105,7 @@ export default {
   }
 
   .event-details {
+    color: var(--paler-text-col);
     font-size: 0.8em;
   }
 
