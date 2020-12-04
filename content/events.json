@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "title": "VisualContainerTV",
+      "date": "2021-01-28",
+      "start": "2021-01-28",
+      "end": "2021-02-24",
+      "location": "Milan, Italy",
+      "link": "https://www.visualcontainer.tv/"
+    },
+    {
       "title": "VASTLAB Experimental Festival 2020",
       "date": "2020-12-17",
       "start": "2020-12-17",
