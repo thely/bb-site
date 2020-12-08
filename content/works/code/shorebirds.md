@@ -4,7 +4,7 @@ subtitle: audio-based webapp
 excerpt: A webapp that allows listeners to virtually navigate the bird species present on the two of the Virginia Barrier Islands in 1990. Made with NodeJS, Leaflet, Web Audio API. Made in collaboration with Eli Stine.
 date: 2019
 category: code
-link: http://dev.coastalconservatory.org/fwp_portfolio/barrier-islands-shore-seabird-sonification/#
+link: https://birds.becky-brown.org
 code_link: https://github.com/thely/shorebird-leaflet
 image: /images/code/shorebirds2.png
 ---
