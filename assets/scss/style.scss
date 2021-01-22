@@ -1,37 +1,13 @@
 @import "fonts";
+@import "colors";
+@import "print";
 
 :root {
   --body-font: 'Aalto Sans';
-  // --body-font: "Rubiesque";
   --header-font: 'Karrik';
-
-  --side-col1: yellow;
-  --side-col2: #81ff81;
-  --side-colpara: rgba(60, 141, 244, 0.78);
-  --side-colpara2: rgba(60, 141, 244, 0.45);
-  --header-col: #ffb5a9;
-  --bg-col: white;
-  --text-col: black;
-  // --link-col: #00f3ff;
-  --link-col: #f93434;
-}
-
-.dark-mode{
-  --side-col1: #959313e6;
-  --side-col2: #1c7971ed;
-  --side-colpara2: rgba(60, 141, 244, 0.83);
-  --header-col: #8416ac;
-  --bg-col: #171111;
-  --text-col: #dee6ee;
-
 }
 
 * {
-  // font-family: 'Phrasa-ExtraLight';
-  // font-family: 'AaltoSans-LightDEMO';
-  // font-family: 'HaboroSans-NorReg';
-  // font-family: 'TofinoPersonal-Book';
-  // font-family: 'Karrik-Regular';
   font-family: var(--body-font);
 }
 
@@ -42,12 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  // font-family: 'BiwaAgate-Black';
-  // font-family: 'CallingCode-Bold';
-  // font-family: 'Karrik-Regular';
   font-family: var(--header-font);
-  // font-family: 'IverseMono-Regular';
-  // color: #ddabab;
   margin-bottom: 1em;
 }
 

@@ -1,0 +1,40 @@
+@media print { 
+  body {
+    font-size: 16px !important;
+  }
+
+  h2 {
+    color: black !important;
+  }
+
+  h4 {
+    font-size: 1.1em !important;
+  }
+
+  a[href]:after { 
+    content: none !important; 
+  } 
+
+  .page-wrap {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .navigation,
+  .footer,
+  .color-picker,
+  .pattern,
+  .work-list .work-image {
+    display: none;
+  }
+
+  .page-wrap p, .page-wrap h3, .page-wrap h4, .page-wrap ul li, .page-wrap blockquote {
+    transform: initial !important;
+  }
+
+  .work-list {
+    .single-work {
+      margin-bottom: 0 !important;
+    }
+  }
+}

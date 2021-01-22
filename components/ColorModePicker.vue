@@ -15,14 +15,23 @@
 export default {
   data() {
     return {
-      colors: ["light", "dark"]
+      colors: [
+        "light",
+        "dark",
+        // "pastel",
+        // "beach",
+        // "sunset",
+        // "rose",
+        // "highlighter",
+        // "ocean"
+      ],
     };
   },
   methods: {
     classList(color) {
       return `picker-node ${color}`;
-    }
-  }
+    },
+  },
 };
 </script>
 
