@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "title": "BROWSER Festival",
+      "date": "2021-06-11",
+      "start": "2021-06-11",
+      "end": "2021-06-12",
+      "location": "online",
+      "link": "https://www.brandonlincolnsnyder.com/browser2021"
+    },
+    {
+      "title": "SEAMUS 2021",
+      "date": "2021-04-23",
+      "start": "2021-04-23",
+      "end": "2021-04-25",
+      "location": "online",
+      "link": "https://www.seamusonline.org/"
+    },
+    {
       "title": "VisualContainerTV",
       "date": "2021-01-28",
       "start": "2021-01-28",

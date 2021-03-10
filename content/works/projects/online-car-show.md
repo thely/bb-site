@@ -12,6 +12,10 @@ prefer_meta: excerpt
 
 ![](/images/car-show.png)
 
+### Status
+
+The Car Show is currently in development, and is expected to be released in May 2021! The call is here for reference.
+
 ### About
 
 The Incurable Caravan’s Online Car Show is an indefinite online exhibit. All works accepted should expect to be a single element on a larger, scrolling page. The online aspect of the exhibition is deliberate.
