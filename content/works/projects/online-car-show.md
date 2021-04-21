@@ -14,7 +14,7 @@ prefer_meta: excerpt
 
 ### Status
 
-The Car Show is currently in development, and is expected to be released in May 2021! The call is here for reference.
+The Car Show is currently in development, and is expected to be released in May 2021! The call is included below for reference.
 
 ### About
 
