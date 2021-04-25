@@ -95,3 +95,23 @@ hr {
   border-top: 1px dashed var(--side-colpara);
   margin-bottom: 1em;
 }
+
+blockquote {
+  border-left: 4px solid var(--header-col);
+  // font-style: italic;
+  line-height: 1.2;
+  margin-left: 0.5em;
+  // margin-top: 1em;
+  padding-left: 0.8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  // white-space: pre-line;
+
+  &, & p {
+    transform: revert !important;
+  }
+
+  p {
+    margin-bottom: 0 !important;
+  }
+}
