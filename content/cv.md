@@ -6,7 +6,7 @@ description: full online resume for Becky Brown
 ## Education
 
 <resume-line>
-  <template #left>August 2018 – May 2023</template>
+  <template #left>August 2018 – May 2022</template>
   <template #ti>Ph.D. in Composition and Computer Technologies</template>
   <template #loc>University of Virginia, Charlottesville, VA</template>
 </resume-line>
@@ -20,17 +20,24 @@ description: full online resume for Becky Brown
 ## Teaching
 
 <resume-line>
-  <template #left>August 2018 – May 2023</template>
+  <template #left>August 2018 – May 2022</template>
   <template #ti>Graduate Assistant</template>
   <template #loc>University of Virginia, Charlottesville, VA</template>
   
 <template #desc>
 
-- As instructor: Basic Musical Skills (2019), Musicianship II (2018)
+- As instructor: Art of the Living Web (2021), Basic Musical Skills (2019), Musicianship II (2018, 2021)
 - As TA: Technosonics (2017, 2018, 2020), Intro to Composition (2020), Intro to Music and Computers (2019)
 
 </template>
 
+</resume-line>
+
+<resume-line>
+  <template #left>Summer 2021</template>
+  <template #ti>Technical Director</template>
+  <template #loc>SPLICE Institute, online</template>
+  <template #desc>Co-teaching Intro to Live Performance with Flannery Cunningham</template>
 </resume-line>
 
 <resume-line>
@@ -55,9 +62,9 @@ description: full online resume for Becky Brown
 
 <resume-line>
   <template #left>Summer 2018 – present</template>
-  <template #ti>Assistant Technical Director</template>
+  <template #ti>Technical Director</template>
   <template #loc>SPLICE Institute, Kalamazoo, WI</template>
-  <template #desc>Responsible for managing individual composer-performer sessions, and running concerts in multiple performance spaces.</template>
+  <template #desc>Responsible for managing individual composer-performer sessions, and running concerts in multiple performance spaces. During the pandemic, this mainly included managing streaming. Assistant Technical Director before Summer 2021.</template>
 </resume-line>
 
 <resume-line>
@@ -85,10 +92,11 @@ description: full online resume for Becky Brown
 ## Event Administration
 
 <resume-line>
-  <template #left>Summer 2021</template>
-  <template #ti>Technical Director</template>
-  <template #loc>SPLICE Institute, Kalamazoo, WI</template>
-  <template #desc>Responsible for managing individual composer-performer sessions, and running concerts in multiple performance spaces.</template>
+  <template #left>Nov 2019 – Apr 2021</template>
+  <template #ti>Arts Board Co-Chair</template>
+  <template #loc>UVA Music Arts Board, Charlottesvile, VA</template>
+  <template #desc>Brought the progressive folk band Arcadian Wild in for a five-day residency, which included two in-person concerts, three in-person songwriting workshops, class visits, a radio interview, a career panel, an improv workshop, and individual student lessons. Reached approximately 200 people in person, and 2500 more via the livestream of their main concert. In addition to planning and running all the events, this included interviewing and managing a board of 9-11 students and running the production committee.
+</template>
 </resume-line>
 
 <resume-line>
@@ -264,6 +272,13 @@ Brown, R., Vasquez J.C. (2020) Autoethnography and Emotional Exposure as an Appr
 ## Awards, Grants and Scholarships
 
 <resume-line>
+  <template #left>2021</template>
+  <template #ti>BROWSER Music commission</template>
+  <template #loc>BROWSER Music, Stuttgart, Germany</template>
+  <template #desc>Grant awarded to create a collaborative piece with composer Zak Argabrite, to be part of the BROWSER Music Festival in June 2021.</template>
+</resume-line>
+
+<resume-line>
   <template #left>2019</template>
   <template #ti>UVA Maker Grant</template>
   <template #loc>University of Virginia, Charlottesville, VA</template>
@@ -276,7 +291,6 @@ Brown, R., Vasquez J.C. (2020) Autoethnography and Emotional Exposure as an Appr
   <template #loc>University of Georgia, Athens, GA</template>
   <template #desc>Commission from the combined Rote Hund and Dawg Bytes Music ensembles, to write a work for chamber and laptop ensemble.</template>
 </resume-line>
-
 
 <resume-line>
   <template #left>2015</template>
@@ -309,7 +323,7 @@ Brown, R., Vasquez J.C. (2020) Autoethnography and Emotional Exposure as an Appr
 </resume-line>
 
 ## Service
-* Co-chair of the UVA Music Arts Board, responsible for bringing a musical group in residence to the UVA student population
+* Co-chair of the UVA Music Arts Board, responsible for bringing a musical group in residence to the UVA student population (see Event Administration)
 * WTJU Volunteer Live Engineer for Randy Johnston, Harmonica Blowout, Michaela Anne, Hiroya Tsukamoto, Rosier, and Heather Mease’s Songwriting class concert
 * Live/recording engineer for Girls are All Write poetry/fiction slam
 * Composition mentor for undergraduate composition students
@@ -328,7 +342,7 @@ Brown, R., Vasquez J.C. (2020) Autoethnography and Emotional Exposure as an Appr
 ## Broadcasts
 
 #### Interviews
-* Week-long feature with WTJU in Charlottesville
+* Week-long feature with WTJU in Charlottesville in April 2021
 * Lexical Tones, ep. 72: Live from SEAMUS 2018
 * Patch In Podcast, ep. 44: Talking Into a Head, 2018
 

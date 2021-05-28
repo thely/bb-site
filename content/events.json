@@ -1,12 +1,34 @@
 {
   "events": [
     {
+      "title": "ICMC",
+      "date": "2021-07-25",
+      "start": "2021-07-31",
+      "end": "2021-07-25",
+      "location": "Santiago, Chile",
+      "link": "http://icmc2021.org/"
+    },
+    {
+      "title": "SPLICE Festival",
+      "date": "2021-06-28",
+      "start": "2021-07-02",
+      "end": "2021-06-12",
+      "location": "online",
+      "link": "https://splicemusic.org/institute/about"
+    },
+    {
       "title": "BROWSER Festival",
       "date": "2021-06-11",
       "start": "2021-06-11",
       "end": "2021-06-12",
       "location": "online",
-      "link": "https://www.brandonlincolnsnyder.com/browser2021"
+      "link": "https://browsersound.com/"
+    },
+    {
+      "title": "Digitalis",
+      "date": "2021-05-13",
+      "location": "online",
+      "link": "https://music.virginia.edu/digitalis-21"
     },
     {
       "title": "SEAMUS 2021",
@@ -19,6 +41,7 @@
     {
       "title": "Telemetry",
       "date": "2021-04-22",
+      "venue": "The Bridge Progressive Arts Initiative",
       "location": "online"
     },
     {
