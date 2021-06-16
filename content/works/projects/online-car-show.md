@@ -5,12 +5,12 @@ excerpt: an indefinite, multidisciplinary online exhibit, loosely focused on int
 date: 2021
 duration: indefinite duration
 category: projects
-image: /images/car-show.png
+image: /images/projects/car-show.png
 
 prefer_meta: excerpt
 ---
 
-![](/images/car-show.png)
+![](/images/projects/car-show.png)
 
 ### Status
 
