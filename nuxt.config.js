@@ -2,9 +2,6 @@ require("dotenv").config();
 
 export default {
   mode: "universal",
-  /*
-   ** Headers of the page
-   */
   publicRuntimeConfig: {
     baseUrl:
       process.env.NODE_ENV == "production"
