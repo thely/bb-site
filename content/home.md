@@ -14,7 +14,7 @@ image: /images/becky-brown.jpg
 
 ![packetsphere sample image](/images/projects/packetsphere1.png)
 
-This is a web-based multimedia piece I did with [Zak Argabrite](https://www.zakargabrite.com/) for the [BROWSER Festival](https://browsersound.com). You can [read more about it](/work/packetsphere), or [dive straight into the piece itself.](packetsphere-breckelli.vercel.app/) Tell Karen I say hi.
+This is a web-based multimedia piece I did with [Zak Argabrite](https://www.zakargabrite.com/) for the [BROWSER Festival](https://browsersound.com). You can [read more about it](/work/packetsphere), or [dive straight into the piece itself.](https://packetsphere-breckelli.vercel.app/) Tell Karen I say hi.
 
 ---
 
